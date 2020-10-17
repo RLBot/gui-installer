@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RLBotGUIX", "RLBotGUI Setup\RLBotGUI Setup.vdproj", "{2881CF76-B52B-40B1-963B-4578790B17A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2881CF76-B52B-40B1-963B-4578790B17A0}.Debug|Any CPU.ActiveCfg = Debug
+		{2881CF76-B52B-40B1-963B-4578790B17A0}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92F96D55-D831-4881-80EA-8A97F32FC046}
+	EndGlobalSection
+EndGlobal

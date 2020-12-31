@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:RLBotGUIX Installer"
+"ProjectName" = "8:RLBotGUIInstaller"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -18093,7 +18093,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\RLBotGUIX Installer.msi"
+        "OutputFilename" = "8:Debug\\RLBotGUI.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -18125,7 +18125,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\RLBotGUIX Installer.msi"
+        "OutputFilename" = "8:Release\\RLBotGUI.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -80494,7 +80494,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:RLBotGUI"
         "ProductCode" = "8:{70BF5866-BD3F-4A5D-B57D-794768E6B8A7}"
-        "PackageCode" = "8:{253706E9-4AAB-4CE1-9D03-8D0EBB732A0D}"
+        "PackageCode" = "8:{EA783798-5F9D-464B-B06D-E5378060C5D3}"
         "UpgradeCode" = "8:{ABDAB76A-B54C-4B9E-815F-C4BB0E639453}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -80616,7 +80616,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1EB3A5F86B6F42B595ED1AA64122BC11"
             {
-            "Name" = "8:RLBotGUIX"
+            "Name" = "8:RLBotGUI"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -80630,7 +80630,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_734B6367F9CC489982775C1E8BC74145"
             {
-            "Name" = "8:RLBotGUIX"
+            "Name" = "8:RLBotGUI"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"

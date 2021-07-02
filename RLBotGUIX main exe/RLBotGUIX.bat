@@ -1,55 +1,46 @@
 @echo off
 
-pushd "%LocalAppData%\RLBotGUIX"
+pushd "%localappdata%\RLBotGUIX"
 
-rem Create a virtual environment which will isolate our package installations from any
-rem existing python installation that the user may have.
+set rl_py="Python37\python.exe"
+set rl_pip="Python37\Scripts\pip.exe"
 
-if not exist .\venv\Scripts\activate.bat (
-  echo Creating Python virtual environment just for RLBot...
-  "%LocalAppData%\RLBotGUIX\Python37\python.exe" -m venv .\venv
-  if %ERRORLEVEL% GTR 0 (
-    echo Something went wrong with creating Python virtual environment, aborting.
-    pause
-    exit
-  )
+rem If Python 3.7.9 hasn't been installed yet, install it
+
+if not exist %rl_py% (
+  echo RLBot's Python 3.7.9 hasn't been installed! Please click either "Install" or "Repair", depending on what you see in the popup.
+
+  python-3.7.9-amd64.exe "TargetDir=%localappdata%\RLBotGUIX\Python37" Shortcuts=0 Include_launcher=0 InstallLauncherAllUsers=0 AssociateFiles=0 SimpleInstall=1 PrependPath=0
+
+  echo Thank you for installing RLBot's Python 3.7.9.
 )
 
-rem Activate the virtual environment
-call .\venv\Scripts\activate.bat
-if %ERRORLEVEL% GTR 0 (
-  echo Error when activating RLBot's virtual environment, attemping fix...
-  rem This is a custom python script that updates the Python location in the venv
-  "%LocalAppData%\RLBotGUIX\Python37\python.exe" "%~dp0\update_venv.py"
-  call .\venv\Scripts\activate.bat
-  if %ERRORLEVEL% GTR 0 (
-    echo Couldn't fix RLBot's virtual environment, aborting.
-    pause
-    exit
-  )
-)
+rem Since we have our own Python 3.7 install, we don't actually need to make a virtual environment
 
-echo Checking for updates...
+echo Checking for conenction to pypi.org...
 
-rem We ping google.com to see if we have an internet connection
-rem We then store the output of the command to nul which prevents the command from printing to the console
-ping -n 1 google.com > nul
+rem We ping PyPi's package index to see if we have an internet connection, but don't print to the console
+
+ping pypi.org -n 1 > nul
+
 if %errorlevel% == 0 (
-  echo Installing / upgrading RLBot components...
-  python -m pip install --upgrade pip
-  pip install wheel
-  pip install eel
-  pip install --upgrade rlbot_gui rlbot
+  echo Connected - Installing / upgrading RLBot components...
+
+  %rl_py% -m pip install -U pip --no-warn-script-location
+  %rl_pip% install setuptools wheel --no-warn-script-location
+  %rl_pip% install eel --no-warn-script-location
+  %rl_pip% install -U rlbot_gui rlbot --no-warn-script-location
 ) else (
-  echo It looks like you're offline, skipping package upgrades.
-  echo Please note that if this is your first time running RLBotGUI, an internet connection is required to properly install.
+  echo.
+  echo It looks like either you or PyPi is offline, skipping package upgrades.
+  echo If this is your first time running RLBotGUI, an internet connection is required to properly install!
+  echo.
 )
 
 echo Launching RLBotGUIX!
 
-python -c "from rlbot_gui import gui; gui.start()"
+%rl_py% -c "from rlbot_gui import gui; gui.start()"
 
-if %ERRORLEVEL% GTR 0 (
+if %errorlevel% GTR 0 (
   pause
 )
-

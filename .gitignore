@@ -326,3 +326,5 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+python-3.7.9-amd64.exe

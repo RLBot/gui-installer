@@ -28,7 +28,7 @@ This installer has a few enhancements over the old method:
 + Registers RLBotGUIX with Window's list of programs.
 + Puts the main exe file into the folder `%programfiles%\RLBot\RLBotGUIX` (which can be changed), as well as adding a shortcut to it onto the user's desktop.
 + It's now easier to upgrade users to newer Python versions.
-+ It's now even easier to fix corrupted Python installs. Simple run the file `%localappdata%\RLBotGUIX\python37-uninstall` and you're done!
++ It's now even easier to fix corrupted Python installs. Simply run the file `%localappdata%\RLBotGUIX\python37-uninstall` and you're done!
 
 ## Problems solved
 

@@ -4,7 +4,7 @@
 
 1. [Download bat2exe](https://bat2exe.net/)
 2. Use bat2exe to convert the 3 files in [`RLBotGUIX main exe`](https://github.com/VirxEC/RLBotGUIX-installer/tree/master/RLBotGUIX%20main%20exe) to `RLBotGUIX main exe\bin\RLBotGUIX.exe`
-3. Download [`Python 3.7.9's x86-64 executable installer`](https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe) and save it to `RLBotGUIX Installer\python-3.7.9-amd64.exe`. You can also get it from the list of all of the [Python downloads for Windows](`https://www.python.org/downloads/windows/`).
+3. Download [Python 3.7.9's x86-64 executable installer](https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe) and save it to `RLBotGUIX Installer\python-3.7.9-amd64.exe`. You can also get it from the list of all of the [Python downloads for Windows](https://www.python.org/downloads/windows/).
 4. Make sure you have Visual Studio 2019, as well as the Microsoft Visual Studio Installer Projects extension.
 5. Open project in Visual Studio 2019
 6. In the Solution Explorer, left-click `RLBotGUIX Installer`

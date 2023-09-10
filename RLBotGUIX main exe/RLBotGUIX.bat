@@ -28,6 +28,7 @@ if %errorlevel% == 0 (
 
   %rl_py% -m pip install -U pip --no-warn-script-location
   %rl_pip% install setuptools wheel --no-warn-script-location
+  %rl_pip% install gevent^<22 --no-warn-script-location
   %rl_pip% install eel --no-warn-script-location
   %rl_pip% install -U rlbot_gui rlbot --no-warn-script-location
 ) else (

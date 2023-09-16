@@ -21,7 +21,7 @@ echo Checking for conenction to pypi.org...
 
 rem We ping PyPi's package index to see if we have an internet connection, but don't print to the console
 
-ping pypi.org -n 1 > nul
+%WINDIR%\system32\ping -n 1 google.com > nul
 
 if %errorlevel% == 0 (
   echo Connected - Installing / upgrading RLBot components...

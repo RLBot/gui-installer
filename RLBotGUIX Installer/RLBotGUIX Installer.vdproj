@@ -13665,6 +13665,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_CD808AAFF2D448EFAD279ECC8453D9F5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_CDAA7FC47B07406F905C6D68CE86542D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -17408,6 +17414,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CD808AAFF2D448EFAD279ECC8453D9F5"
+            {
+            "SourcePath" = "8:get-pip.py"
+            "TargetName" = "8:get-pip.py"
+            "Tag" = "8:"
+            "Folder" = "8:_DE427B16ECC949659CFFF0526BC3DB0E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -17488,7 +17514,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:RLBotGUI"
         "ProductCode" = "8:{8706310C-F033-4D35-B88D-C23D2309E41B}"
-        "PackageCode" = "8:{097960A7-84A1-4FD1-8504-BAD4DB5A96D6}"
+        "PackageCode" = "8:{9E4E8630-960E-49D0-944C-674DBE4303FE}"
         "UpgradeCode" = "8:{ABDAB76A-B54C-4B9E-815F-C4BB0E639453}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"

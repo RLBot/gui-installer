@@ -8,7 +8,7 @@ set rl_pip="Python311\Scripts\pip.exe"
 rem If Python 3.11.6 hasn't been installed yet, install it
 
 if not exist %rl_py% (
-  echo Installing/repairing RLBot's Python 3.11.6!
+  echo Installing/repairing RLBot's Python 3.11.6... please wait...
 
   unzip.exe -qq python-3.11.6-custom-amd64.zip
 
@@ -19,14 +19,13 @@ rem Since we have our own Python 3.11 install, we don't actually need to make a 
 
 echo Checking for conenction to pypi.org...
 
-rem We ping PyPi's package index to see if we have an internet connection, but don't print to the console
+rem We ping google to see if we have an internet connection, but don't print to the console
 
 %WINDIR%\system32\ping -n 1 google.com > nul
 
 if %errorlevel% == 0 (
   if not exist %rl_pip% (
     echo Python pip not found - installing!
-    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     %rl_py% get-pip.py
   )
 

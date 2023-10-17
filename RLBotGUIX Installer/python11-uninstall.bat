@@ -1,0 +1,1 @@
+rmdir %localappdata%\RLBotGUIX\Python311 /s /q

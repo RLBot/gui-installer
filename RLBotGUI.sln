@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RLBotGUIX Installer", "RLBotGUIX Installer\RLBotGUIX Installer.vdproj", "{F07B364F-FC87-4711-96AD-5319880A1D03}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RLBotGUIInstaller", "RLBotGUIX Installer\RLBotGUIX Installer.vdproj", "{F07B364F-FC87-4711-96AD-5319880A1D03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,8 +11,8 @@ Global
 		Release|Default = Release|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F07B364F-FC87-4711-96AD-5319880A1D03}.Debug|Default.ActiveCfg = Debug
-		{F07B364F-FC87-4711-96AD-5319880A1D03}.Debug|Default.Build.0 = Debug
+		{F07B364F-FC87-4711-96AD-5319880A1D03}.Debug|Default.ActiveCfg = Release
+		{F07B364F-FC87-4711-96AD-5319880A1D03}.Debug|Default.Build.0 = Release
 		{F07B364F-FC87-4711-96AD-5319880A1D03}.Release|Default.ActiveCfg = Release
 		{F07B364F-FC87-4711-96AD-5319880A1D03}.Release|Default.Build.0 = Release
 	EndGlobalSection

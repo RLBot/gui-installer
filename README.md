@@ -4,7 +4,10 @@
 
 1. [Download bat2exe](https://bat2exe.net/)
 2. Use bat2exe to convert the 3 files in [`RLBotGUIX main exe`](https://github.com/VirxEC/RLBotGUIX-installer/tree/master/RLBotGUIX%20main%20exe) to `RLBotGUIX main exe\bin\RLBotGUIX.exe`
-3. Download [Python 3.7.9's x86-64 executable installer](https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe) and save it to `RLBotGUIX Installer\python-3.7.9-amd64.exe`. You can also get it from the list of all of the [Python downloads for Windows](https://www.python.org/downloads/windows/).
+3. Download [Python 3.11.6's x86-64 executable installer](https://www.python.org/ftp/python/3.11.6/python-3.11.6-amd64.exe) - you can also get it from the list of all of the [Python downloads for Windows](https://www.python.org/downloads/windows/).
+ - Run it, telling it to install to a folder named `Python311` and install only the optional `pip` and `tcl/tk` features.
+ - Remove all `__pycache__` folders
+ - Zip the files to `RLBotGUIX Installer\python-3.11.6-amd64.zip`
 4. Make sure you have Visual Studio 2019+, as well as the Microsoft Visual Studio Installer Projects extension.
 5. Open project in Visual Studio 2019+
 6. In the Solution Explorer, left-click `RLBotGUIX Installer`
@@ -14,7 +17,7 @@
 
 ## About MSI
 
-MSI is short for MicroSoft Installer. All versions of Windows after Windows 2000 support it, and that was long before 64-bit OS were a thing. Therefore, none of our users should have a problem with this new installer. The installer is also very straight forward and intuitive, as all the user really has to do is click 'Next' a couple times.
+MSI is short for [M]icro[s]oft [I]nstaller. All versions of Windows after Windows 2000 support it, and that was long before 64-bit OS were a thing. Therefore, none of our users should have a problem with this new installer. The installer is also very straight forward and intuitive, as all the user really has to do is click 'Next' a couple times.
 
 Source: [wikipedia.org/wiki/Windows_Installer](https://en.wikipedia.org/wiki/Windows_Installer)
 
@@ -22,13 +25,13 @@ Source: [wikipedia.org/wiki/Windows_Installer](https://en.wikipedia.org/wiki/Win
 
 This installer has a few enhancements over the old method:
 
-+ Installs the Python 3.7 into the `Python37` folder in a way that should be supported by all windows versions.
++ Installs the Python 3.11 into the `Python311` folder in a way that should be supported by all windows versions.
 + Installing the RLBotGUIX is much more intuitive, as more users expect a dedicated installer.
-+ Since this installer installs Python 3.7, the main exe is back to being only ~128KB instead of ~22MB.
++ Since this installer installs Python 3.11 the main exe is back to being only ~1MB instead of ~22MB.
 + Registers RLBotGUIX with Window's list of programs.
 + Puts the main exe file into the folder `%programfiles%\RLBot\RLBotGUIX` (which can be changed), as well as adding a shortcut to it onto the user's desktop.
 + It's now easier to upgrade users to newer Python versions.
-+ It's now even easier to fix corrupted Python installs. Simply run the file `%localappdata%\RLBotGUIX\python37-uninstall` and you're done!
++ It's now even easier to fix corrupted Python installs. Simply run the file `%localappdata%\RLBotGUIX\python311-uninstall` and you're done!
 
 ## Problems solved
 

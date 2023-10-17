@@ -10,7 +10,7 @@ rem If Python 3.11.6 hasn't been installed yet, install it
 if not exist %rl_py% (
   echo Installing/repairing RLBot's Python 3.11.6... please wait...
 
-  unzip.exe -qq python-3.11.6-custom-amd64.zip
+  unzip.exe -qq -o python-3.11.6-custom-amd64.zip
 
   echo Thank you for installing RLBot's Python 3.11.6
 )

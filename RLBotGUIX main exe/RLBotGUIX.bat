@@ -17,7 +17,7 @@ if not exist %rl_py% (
 
 rem Since we have our own Python 3.11 install, we don't actually need to make a virtual environment
 
-echo Checking for conenction to pypi.org...
+echo Checking for an internet connection...
 
 rem We ping google to see if we have an internet connection, but don't print to the console
 
@@ -38,7 +38,7 @@ if %errorlevel% == 0 (
   %rl_pip% install -U rlbot_gui rlbot --no-warn-script-location
 ) else (
   echo.
-  echo It looks like either you or PyPi is offline, skipping package upgrades.
+  echo It looks like either your offline, skipping package upgrades.
   echo If this is your first time running RLBotGUI, an internet connection is required to properly install!
   echo.
 )

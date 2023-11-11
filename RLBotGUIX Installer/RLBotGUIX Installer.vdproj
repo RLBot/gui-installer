@@ -2553,12 +2553,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_25F1F80FBE654C158025278EDC9E9701"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_25F253F35C3E4BA4BB860F1CC9F846A7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2626,12 +2620,6 @@
         "Entry"
         {
         "MsmKey" = "8:_26F8A206B01049A6A6ABB29F49478116"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_273C700D2F794553A9F49163445292A3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -4504,12 +4492,6 @@
         "Entry"
         {
         "MsmKey" = "8:_45F0C27A85354339ABE6DA365F8182E2"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4609825051E845FA8BB32B7C984E8752"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -9273,12 +9255,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8C9057A7F20B4275919E961F82AF70BC"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_8CABCB8EFD53465DAEA69138530869EB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -10270,6 +10246,12 @@
         "Entry"
         {
         "MsmKey" = "8:_9C07C7114C914B5CB4A4C923370C5146"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9C7F37C0233F4CEAADA01E223AFB0E42"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -13660,12 +13642,6 @@
         "Entry"
         {
         "MsmKey" = "8:_CD8025479D2644B3A7419A3592C52847"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CD808AAFF2D448EFAD279ECC8453D9F5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -17115,6 +17091,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_FDDBD77CAE4F470D95ABFC4F93C9DE97"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_FDF87242EA1E49869443380D01255D00"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -17271,7 +17253,7 @@
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
-        "Compression" = "3:2"
+        "Compression" = "3:3"
         "SignOutput" = "11:FALSE"
         "CertificateFile" = "8:"
         "PrivateKeyFile" = "8:"
@@ -17314,72 +17296,12 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_25F1F80FBE654C158025278EDC9E9701"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9C7F37C0233F4CEAADA01E223AFB0E42"
             {
-            "SourcePath" = "8:..\\RLBotGUIX main exe\\rlbot.ico"
-            "TargetName" = "8:rlbot.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_15686B0ADA0B418D8C151B3C328B4E6F"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_273C700D2F794553A9F49163445292A3"
-            {
-            "SourcePath" = "8:python-3.11.6-custom-amd64.zip"
-            "TargetName" = "8:python-3.11.6-custom-amd64.zip"
+            "SourcePath" = "8:..\\RLBotGUIX main exe\\rlbotguilauncher.exe"
+            "TargetName" = "8:rlbotguilauncher.exe"
             "Tag" = "8:"
             "Folder" = "8:_DE427B16ECC949659CFFF0526BC3DB0E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4609825051E845FA8BB32B7C984E8752"
-            {
-            "SourcePath" = "8:unzip.exe"
-            "TargetName" = "8:unzip.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_DE427B16ECC949659CFFF0526BC3DB0E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8C9057A7F20B4275919E961F82AF70BC"
-            {
-            "SourcePath" = "8:..\\RLBotGUIX main exe\\bin\\RLBotGUIX.exe"
-            "TargetName" = "8:RLBotGUIX.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_15686B0ADA0B418D8C151B3C328B4E6F"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -17414,12 +17336,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CD808AAFF2D448EFAD279ECC8453D9F5"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FDDBD77CAE4F470D95ABFC4F93C9DE97"
             {
-            "SourcePath" = "8:get-pip.py"
-            "TargetName" = "8:get-pip.py"
+            "SourcePath" = "8:..\\RLBotGUIX main exe\\rlbot.ico"
+            "TargetName" = "8:rlbot.ico"
             "Tag" = "8:"
-            "Folder" = "8:_DE427B16ECC949659CFFF0526BC3DB0E"
+            "Folder" = "8:_15686B0ADA0B418D8C151B3C328B4E6F"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -17513,15 +17435,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:RLBotGUI"
-        "ProductCode" = "8:{8706310C-F033-4D35-B88D-C23D2309E41B}"
-        "PackageCode" = "8:{9E4E8630-960E-49D0-944C-674DBE4303FE}"
+        "ProductCode" = "8:{895BBFE2-B01E-4DA7-A02D-DB69C01300FD}"
+        "PackageCode" = "8:{7AF7D1AE-8621-4916-BFC9-DF3AC2E4A031}"
         "UpgradeCode" = "8:{ABDAB76A-B54C-4B9E-815F-C4BB0E639453}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.3.0"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:1.4.0"
         "Manufacturer" = "8:RLBot"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://discord.gg/GzFkkfS"
@@ -17531,7 +17453,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:The easy way to play with custom Rocket League bots and create your own!"
         "ARPURLINFOABOUT" = "8:https://rlbot.org/"
-        "ARPPRODUCTICON" = "8:_25F1F80FBE654C158025278EDC9E9701"
+        "ARPPRODUCTICON" = "8:_FDDBD77CAE4F470D95ABFC4F93C9DE97"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -17634,7 +17556,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1EB3A5F86B6F42B595ED1AA64122BC11"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4547D7776F984D1796D55E587C7BEEB9"
             {
             "Name" = "8:RLBotGUI"
             "Arguments" = "8:"
@@ -17642,24 +17564,10 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_8C9057A7F20B4275919E961F82AF70BC"
-            "Folder" = "8:_81A617F7D4F84309A17EFDDC8925393E"
-            "WorkingFolder" = "8:_15686B0ADA0B418D8C151B3C328B4E6F"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_734B6367F9CC489982775C1E8BC74145"
-            {
-            "Name" = "8:RLBotGUI"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_8C9057A7F20B4275919E961F82AF70BC"
+            "Target" = "8:_9C7F37C0233F4CEAADA01E223AFB0E42"
             "Folder" = "8:_A0E6649073234BDFAE107D040B3CFDA1"
             "WorkingFolder" = "8:_15686B0ADA0B418D8C151B3C328B4E6F"
-            "Icon" = "8:"
+            "Icon" = "8:_FDDBD77CAE4F470D95ABFC4F93C9DE97"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A637D9B526414852B0E418A728E4A765"
@@ -17674,6 +17582,20 @@
             "Folder" = "8:_DE427B16ECC949659CFFF0526BC3DB0E"
             "WorkingFolder" = "8:_DE427B16ECC949659CFFF0526BC3DB0E"
             "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_EC2B82BDF8A34D9280659804C8C09796"
+            {
+            "Name" = "8:RLBotGUI"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_9C7F37C0233F4CEAADA01E223AFB0E42"
+            "Folder" = "8:_81A617F7D4F84309A17EFDDC8925393E"
+            "WorkingFolder" = "8:_15686B0ADA0B418D8C151B3C328B4E6F"
+            "Icon" = "8:_FDDBD77CAE4F470D95ABFC4F93C9DE97"
             "Feature" = "8:"
             }
         }
